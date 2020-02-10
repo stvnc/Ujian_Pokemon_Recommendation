@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Favorite Pokemon</title>
+    <style>
+    body {
+        background-image: url("http://wallpaperheart.com/wp-content/uploads/2018/04/Pikachu-Pokemon-Cartoon-Wallpaper-pokemon-wallpaper.jpg");
+       }
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black
+    }
+    </style>
+</head>
+<body>
+    <center>
+    <h1><b>Insert your Favorite Pokemon</b></h1>
+    <form method='POST' action='http://localhost:5000/FindPokemon'>
+        <input type='text' name='Pokemon' placeholder="Input Pokemon Name"/>
+        <input class="waves-effect waves-light btn-large" type='submit' value='Search'/>
+    </form>
+    </center>
+</body>
+</html>
+
